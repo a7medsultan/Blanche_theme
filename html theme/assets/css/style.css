@@ -1,0 +1,59 @@
+body {
+    color: #3a3a3a;
+}
+
+.times {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-grey {
+    background-color: #f6f6f6;
+}
+
+.navbar-logo-centered .navbar-nav .nav-link {
+    padding: 1.5em 1em;
+}
+
+.explore-box {
+    min-height: 440px !important;
+}
+
+.explore-btn-layer {
+    position: absolute;
+    z-index: 100;
+    width: 100%;
+    height: 300px;
+    bottom: -150px;
+}
+
+.carousel-inner {
+    position: unset;
+}
+
+.carousel-caption {
+    top: 5rem !important;
+    color: #4f4f4f;
+}
+
+.carousel-caption h2 {
+    width: 35rem;
+}
+
+.vl {
+    border-left: 2px solid #e8e8e8;
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    margin-left: -1px;
+    /*top: 100px;*/
+    z-index: 100;
+}
+
+#search_section {
+    transition: height .5s ease;
+    overflow  : hidden;
+}
+
+#search_section:not(.active) {
+    display: none;
+}
